@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="@string/refresh"
+        android:icon="@drawable/ic_autorenew_24dp"
+        app:showAsAction="always"
+        android:orderInCategory="1"
+        android:id="@+id/action_refresh"/>
+
+    <item android:icon="@drawable/ic_star_24dp"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="2"
+        android:title="@string/action_favorites"
+        android:id="@+id/action_show_favorites"/>
+
+    <item android:title="@string/sort_top_rated"
+        app:showAsAction="never"
+        android:id="@+id/action_sort"/>
+
+</menu>

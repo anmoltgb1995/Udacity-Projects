@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.popularmovies">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MovieDetail_Activity"
+            android:theme="@style/MovieDetailTheme"></activity>
+
+        <!-- Register the ContentProvider -->
+        <!-- Set name, authorities, and exported attributes -->
+        <!-- exported = false limits access to this ContentProvider to only this app -->
+        <provider
+            android:name="com.example.android.popularmovies.data.FavoritesContentProvider"
+            android:authorities="com.example.android.popularmovies"
+            android:exported="false" />
+
+        <activity
+            android:name=".FavoritesActivity"
+            android:label="@string/favorite_activity_label"
+            android:theme="@style/Favorites">
+
+        </activity>
+    </application>
+
+</manifest>

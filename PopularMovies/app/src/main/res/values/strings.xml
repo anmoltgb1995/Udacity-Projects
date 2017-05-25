@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="error_message">Failed to load results. Please try again.</string>
+    <string name="refresh">REFRESH</string>
+    <string name="release_date">Release Date: </string>
+    <string name="rating_label">Rating: </string>
+    <string name="rating_format">%s/10</string>
+    <string name="sort_top_rated">Show Top Rated</string>
+    <string name="sort_popular">Show Most Popular</string>
+    <string name="movie_review_example">When I sat down to watch this film, I didn\'t know what to expect.
+        I am not usually a fan of films about musicians but this was a brilliant and tense masterpiece.
+        The story is of a very ambitious boy named Andrew (played by Miles Teller) who is a music student in New York.
+        He aspires to be noticed by a prestigious music teacher named Fletcher (played by J.K. Simmons).</string>
+    <string name="videos_label_text">Related Videos:</string>
+    <string name="reviews_label_text">Reviews</string>
+    <string name="favorite_button_text">MARK AS FAVORITE</string>
+    <string name="unfavorite_button_text">UNFAVORITE</string>
+    <string name="favorite_menu_label">Show Favorites</string>
+    <string name="share_content_desc">Share Video Link</string>
+    <string name="favorite_activity_label">Favorites</string>
+    <string name="video_size">%1$sp</string>
+    <string name="action_favorites">Show Favorites</string>
+</resources>
